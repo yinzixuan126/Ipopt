@@ -5,7 +5,7 @@ official github repository https://github.com/coin-or/Ipopt
 # Installation 
 ## Method1:
 	using udacity install_Ipopt script, you also can find in this reposittory
-	Ref: https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md
+	[Ref:] ( https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md)
 
 # Method2:
 ## Dependency installation
@@ -46,4 +46,4 @@ official github repository https://github.com/coin-or/Ipopt
 	make test
 	make install
 
-	Ref: https://github.com/bapaden/ipopt-cmake-demo
+	[Ref:] (https://github.com/bapaden/ipopt-cmake-demo)
