@@ -5,10 +5,10 @@ official github repository https://github.com/coin-or/Ipopt
 # Installation 
 ## Method1:
 	using udacity install_Ipopt script, you also can find in this reposittory
-	[Ref:]( https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md)
+	udaticy installation scripts: https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md
 
 # Method2:
-## Dependency installation
+## 2.1 Dependency installation
 	sudo apt-get install libblas3 libblas-dev liblapack3 liblapack-dev gfortran
 	
 	using apt-get to install ASL Mumps
@@ -35,7 +35,7 @@ official github repository https://github.com/coin-or/Ipopt
 	mumps-test: Example/test binaries using MUMPS
 	mumps-test-dbgsym: debug symbols for mumps-test
 
-## Install Ipopt
+## 2.2 Install Ipopt
 	wget https://www.coin-or.org/download/source/Ipopt/Ipopt-3.12.7.zip 
 	unzip Ipopt-3.12.7.zip 
 	rm Ipopt-3.12.7.zip
@@ -46,4 +46,4 @@ official github repository https://github.com/coin-or/Ipopt
 	make test
 	make install
 
-	[Ref:]( https://github.com/bapaden/ipopt-cmake-demo)
+	References: https://github.com/bapaden/ipopt-cmake-demo
