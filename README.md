@@ -115,3 +115,9 @@ official github repository https://github.com/coin-or/Ipopt
 
 * [References](https://github.com/bapaden/ipopt-cmake-demo)  
 
+# uninstallation
+ ```
+ sudo make uninstall
+ make distclean
+ ```
+
