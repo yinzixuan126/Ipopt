@@ -27,12 +27,12 @@ official github repository https://github.com/coin-or/Ipopt
 # Installation
  
 ## Method1:
-	using udacity install_Ipopt script, Please refer to [this document](https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md) for installation instructions.
+	* using udacity install_Ipopt script, Please refer to [this document](https://github.com/udacity/CarND-MPC-Project/blob/master/install_Ipopt_CppAD.md) for installation instructions.
 
 ## Method2:
 	
 ### 1.  sudo apt-get install libblas3 libblas-dev liblapack3 liblapack-dev gfortran
-	sudo apt-get install python-numpy (this is for matlibplot c++ verison)
+	* sudo apt-get install python-numpy (this is for matlibplot c++ verison)
 
 ### 2.  using apt-get to install ASL Mumps
 	asl-doc: documentation for ASL
@@ -58,7 +58,7 @@ official github repository https://github.com/coin-or/Ipopt
 	mumps-test-dbgsym: debug symbols for mumps-test
 
 ### 3.  after installed dependecy, you can install Ipopt(version: 3.12.7)
-	wget https://www.coin-or.org/download/source/Ipopt/Ipopt-3.12.7.zip 
+	* wget https://www.coin-or.org/download/source/Ipopt/Ipopt-3.12.7.zip 
 	$ unzip Ipopt-3.12.7.zip 
 	$ rm Ipopt-3.12.7.zip
 	$ cd Ipopt-3.12.7
@@ -72,15 +72,15 @@ official github repository https://github.com/coin-or/Ipopt
 
 ### 4.  install Ipopt(verison: 3.13.2)
 
-	#### 1) IPOPT can be downloaded with:
+	### 1) IPOPT can be downloaded with:
 
 	git clone -b stable/3.13 https://github.com/coin-or/Ipopt.git CoinIpopt
 
-	#### 2) Before compiling IPOPT you need hsl. It is not open source, but a free copy can be requested from:
+	### 2) Before compiling IPOPT you need hsl. It is not open source, but a free copy can be requested from:
 
 	http://www.hsl.rl.ac.uk/ipopt/ you aslo can find a copy in this repository
 
-	#### 3) Compile and install hsl as follows:
+	### 3) Compile and install hsl as follows:
 
 	a) extract the copresses binaries into some directory DIR/
 
@@ -90,7 +90,7 @@ official github repository https://github.com/coin-or/Ipopt
 
 	sudo ldconfig
 
-	#### 4) Now compile and install IPOPT with the following terminal commands:
+	### 4) Now compile and install IPOPT with the following terminal commands:
 
 	cd .../CoinIpopt
 
@@ -102,10 +102,10 @@ official github repository https://github.com/coin-or/Ipopt
 
 	make test
 
-	#### 5) Make sure the ipopt binaries that end up in /CoinIpopt/lib/ are in /usr/local/lib and copies of related headers from /CoinIpopt/include/coin/ are copied to /usr/local/include/coin.
+	### 5) Make sure the ipopt binaries that end up in /CoinIpopt/lib/ are in /usr/local/lib and copies of related headers from /CoinIpopt/include/coin/ are copied to /usr/local/include/coin.
 
 
-	#### 6) After make install, Ipopt3.13 copied /CoinIpopt/include/coin/ to /usr/local/include/coin-or, but cppad in mpc project included head files by "# include <coin/IpIpoptApplication.hpp>", so it cannot find it. Hence, you should mv /usr/local/include/coin-or to /usr/local/include/coin or copy.
+	### 6) After make install, Ipopt3.13 copied /CoinIpopt/include/coin/ to /usr/local/include/coin-or, but cppad in mpc project included head files by "# include <coin/IpIpoptApplication.hpp>", so it cannot find it. Hence, you should mv /usr/local/include/coin-or to /usr/local/include/coin or copy.
 
 	[References](https://github.com/bapaden/ipopt-cmake-demo)  
 
