@@ -22,6 +22,9 @@ official github repository https://github.com/coin-or/Ipopt
     cd uWebSockets
     git checkout e94b6e1
     ```
+* python and matplotlib
+* sudo apt-get install python-matplotlib
+* sudo apt-get install python2.7-dev
     Some function signatures have changed in v0.14.x. See [this PR](https://github.com/udacity/CarND-MPC-Project/pull/3) for more details.
 
 # Installation
